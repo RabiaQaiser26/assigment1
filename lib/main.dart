@@ -44,7 +44,9 @@ class _ScaffoldExampleState extends State<ScaffoldExample> {
   }
 
   final List<Widget> _pages = [
-    Center(child: Text('Welcome to the Drawer App', style: TextStyle(fontSize: 20))),
+    Center(
+        child:
+            Text('Welcome to the Drawer App', style: TextStyle(fontSize: 20))),
     Center(child: Text('Search Page', style: TextStyle(fontSize: 20))),
     Center(child: Text('Profile Page', style: TextStyle(fontSize: 20))),
   ];
@@ -61,12 +63,12 @@ class _ScaffoldExampleState extends State<ScaffoldExample> {
           padding: EdgeInsets.zero,
           children: [
             UserAccountsDrawerHeader(
-              accountName: Text("Kashif Aman"),
-              accountEmail: Text("kashif.aman@cecos.edu.pk"),
+              accountName: Text("Luqman"),
+              accountEmail: Text("luqman@cecos.edu.pk"),
               currentAccountPicture: CircleAvatar(
                 backgroundColor: Colors.white,
                 child: Text(
-                  "KA",
+                  "LM",
                   style: TextStyle(fontSize: 24.0, color: Colors.green),
                 ),
               ),
